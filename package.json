@@ -1,0 +1,16 @@
+{
+  "name": "teste",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "weweb build --name=teste --type=section",
+    "serve": "weweb serve --port=3003"
+  },
+  "weweb": {
+    "name": "teste",
+    "componentPath": "src/index.jsx"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@weweb/cli": "latest"
+  }
+}
